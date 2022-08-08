@@ -1,39 +1,11 @@
----
-# YOUR-NAME (eg. Mohammed Eid)
-YOUR-introduction
-Eg. Software and DevOps engineer.
+# Steps to deploy this application
 
-<div id="webaddress">
-<a href="m7md3id.10@gmail.com">m7md3id.10@gmail.com</a>
-| <a href="http://my-buckit123.s3-website-us-east-1.amazonaws.com/">My Website</a>
-</div>
-
-
-## Currently
-YOUR-JOB/STUDY
-Student At SDA
-
-### Specialized in
-
-AWS Cloud, Linux, AWS cloud & services, SDLC, Iac, git, ansible, jenkins, monitoring, docker , DevSecOps, build tools, distributed systems
-
-
-
-## Education
-
-King Abdualaziz
-
-
-
-## Awards
-
-Legend
-
-## Projects
-
-ANY project
-
-<!-- ### Footer
-
-Last updated: June 2022 -->
-
+1. Git clone the repository
+2. Navigate to the path where you have pom.xml
+3. Run "mvn clean"
+4. Run "mvn compile"
+5. Run "mvn package"
+6. Publish the test case report
+7. Java application is created as a jar application in target folder
+8. Deploy this application on AWS beanstalk application
+9. Access the application. Login credentials -- Username - admin1, Password - secret1
